@@ -1,0 +1,20 @@
+{
+  "name": "ingles",
+  "version": "0.1.2",
+  "description": "English note sobre el prompt: cada mensaje que envías, traducido o corregido al inglés y con un tip de gramática o vocabulario, en dos renglones de color.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "modelo": {
+      "type": "string",
+      "title": "Modelo",
+      "description": "Modelo que escribe la nota (alias como haiku o sonnet, o un id completo). Gasta un poco de cuota en cada mensaje.",
+      "default": "haiku"
+    },
+    "color": {
+      "type": "string",
+      "title": "Color",
+      "description": "Color de los dos renglones (nombre de color de terminal, como cyan, o un hex como #00d7ff).",
+      "default": "cyan"
+    }
+  }
+}

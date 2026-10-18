@@ -1,0 +1,19 @@
+{
+  "name": "english-note",
+  "owner": {
+    "name": "santiagosuarezalf",
+    "url": "https://github.com/santiagosuarezalf"
+  },
+  "metadata": {
+    "description": "Mod de Claude Code para practicar inglés mientras trabajas: cada mensaje que envías, traducido o corregido, con un tip."
+  },
+  "plugins": [
+    {
+      "name": "ingles",
+      "source": "./plugins/ingles",
+      "description": "English note sobre el prompt: cada mensaje traducido o corregido al inglés, con un tip, en dos renglones de color.",
+      "version": "0.1.2",
+      "category": "productivity"
+    }
+  ]
+}
